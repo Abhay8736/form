@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  h1
+  {
+  color:green;
+  }
+  td
+  {
+  color:blue;
+  padding:5px;
+  }
+  body
+  {
+  background-color:yellow;
+  }
+
+  </style>
+ </head>
+ <body>
+    
+	<h1 style='background-color:skyblue' align='center'>abhay gupta</h1>
+	<h1> D.O.B-10/03/1998</h1>
+	<h1>Address-moosanagar</h1>
+	<h1>Mob.no.-8736928679</h1>
+	<h1 style="background-color:skyblue;" align='center'>Application Form</h1>
+	<h1 style='color:blue;' align='center'>Aadhar</h1>
+	<h1>Table tags uses<h1>
+	<table width='100%'>
+		<tr>
+			<td>first name</td>
+			<td><input type='text' size='25'></td>
+			<td>second name</td>
+			<td><input type='text' size='25'></td>
+			<td>last name</td>
+			<td><input type='text' size='25'></td>
+		</tr>
+		<tr>
+			<td>Father name</td>
+			<td><input type='text' size='25'></td>
+			<td>Mother name</td>
+			<td><input type='text' size='25'></td>
+        </tr>
+		<tr>
+			<td>Mobno</td>
+			<td><input type='number'size='25'></td>
+		<td>phone no.</td>
+		<td><input type='text' size='25'></td>
+		</tr>
+		<tr>
+            <td>Date of birth</td>
+			<td><input type='date' size='25'></td>
+			<td>place of bearth</td>
+			<td><input type='text' size='40'></td>
+			<td>pin code</td>
+			<td><input type='text'></td>
+		</tr>
+		<tr>
+			<td>select gender</td>
+			<td><input type='radio' name='gender'>male</td>
+			<td><input type='radio' name='gender'>female</td>
+		</tr>
+   
+	</table>
+	<button style='text-align:middle;width:100%'>submit</button>
+	<input  type='submit'>
+</body>
+</html>
